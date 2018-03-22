@@ -1,0 +1,148 @@
+/*MOBILE*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin-left: 10%;
+    position: relative;  
+}
+
+.box {
+    width: 25rem;
+    height: auto;
+    margin: 2em;
+    padding: 0;
+    background-color: #F5F5F5;
+    line-height: 1.5;
+    border: 2px solid #DDD;
+    position: relative;
+    top:2em;
+    
+}
+
+legend {
+    width: 18rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-family: "Helvetica", sans-serif;
+    font-size: 2rem;
+    background-color: white;
+    border: 2px solid #DDD;
+    text-align: center;
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+}
+
+.form-box {
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: "Helvetica", sans-serif;
+    font-size: 1rem;
+}
+
+#fullname {
+    width: 20rem;
+    height: 2.5rem;
+    border: 2px solid #DDD;
+    border-radius: 4px;
+}
+
+#email {
+    width: 20rem;
+    height: 2.5rem;
+    border: 2px solid #DDD;
+    border-radius: 4px;
+}
+
+#message {
+    border: 2px solid #DDD;
+    border-radius: 4px;
+}
+
+button {
+    width: 20rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+    background-color: #6495ED;
+    font-size: 1rem;
+    color: white;
+}
+
+/*TABLET*/
+
+@media screen and (min-width: 40rem) {
+
+    body{
+        width: 95%;
+        margin-left: 2.5%;
+        position: relative;  
+    }
+    .box {
+        width: 40rem;
+        height: 23rem;
+    }
+
+    .form-box {
+        float: left;
+    }
+
+    #fullname {
+        width: 17rem;
+    }
+
+    #email {
+        width: 17rem;
+    }
+
+    #message {
+        width: 36rem;
+    }
+
+    button {
+        width: 10rem;
+    }
+}
+
+/*DESKTOP*/
+
+@media screen and (min-width: 50rem) {
+    body{
+        width: 65%;
+        margin-left: 17.5%;
+        position: relative;  
+    }
+    
+    .box {
+        width: 50rem;
+    }
+
+    .form-box {
+        float: left;   
+    }
+
+    #fullname {
+        width: 22rem;
+    }
+
+    #email {
+        width: 22rem;
+    }
+
+    #message {
+        width: 46rem;
+    }
+
+    button {
+        width: 10rem;
+    }
+}
